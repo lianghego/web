@@ -1,0 +1,173 @@
+.caption{
+   height: 400px;
+    background-image: url(../source/home-banner@2x.jpg);
+    background-size: 100% 100%;
+    /* margin-bottom: 0%; */
+    /* padding-bottom: 0%; */
+    margin: 0%;
+    padding: 0%;
+}
+.caption img{
+    box-sizing: content-box;
+    padding: 10px 0 0 10px;
+}
+.caption span {
+float: right;
+width: 150px;
+height: 80px;
+}
+.caption span input{
+float: right;    
+margin: 10px 10px ;
+/* background: currentcolor; */
+background-color:transparent;
+font-size: medium;
+color: white;
+border-color:white;
+border-radius: 15%;
+}
+.caption h1{
+    height: 80px;
+    font-size: 40px;
+    font-family: 宋体;
+    font-weight: bold;
+  padding-bottom: 0;
+  margin-top: 50px;
+  margin-bottom: 2px;
+  color: white;
+} 
+.caption h2{
+  font-family: 宋体;
+  padding-bottom: 0;
+  margin-top: 0px;
+  font-weight:lighter;
+  color: white;
+  font-size: 15px;
+}
+.caption button{
+    display: flex;
+   margin:0 ;
+
+}
+.container {
+    margin-top:5%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .container_1 {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+.item {
+    width: 10%;
+    height:50px;
+    align-content: center;
+    justify-content: center;
+  }
+.item button{
+width:150px;
+height: 35px;
+background-color:white;
+align-items: center;
+justify-content: center;
+font-size: 25px;
+font-family: 微软雅黑;
+color:rgb(59, 111,231);
+border-color:white;
+/* border-radius: 15%; */
+}
+.content ul{
+   background-color: #f4f4f4;
+    list-style: none;
+    padding-inline-start: 0px;
+}
+.content ul h3{
+    font-size: 30px;
+    /* font-family: 宋体; */
+    font-weight: bolder;
+    margin-bottom: 0%;
+}
+.content ul  p{
+    font-size: 15px;
+    font-family: 宋体;
+    font-weight: lighter;
+    margin-top: 0%;
+}
+.container_1 button{
+    width: 90%;
+    height:35px;
+    font-family: 宋体;
+
+}
+.content ul h4{
+  font-size: 20px;
+  font-family: 微软雅黑;
+  font-weight: bolder;
+  margin-bottom: 0%;
+  border-bottom: solid ;
+  border-color:rgba(0,0,0,0.1);
+}
+.content ul li ul li img{
+  width: 60px;
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
+.content ul h5{
+  display: block;
+}
+.image-container {
+  position: relative; /* 相对定位 */
+  display: inline-block; /* 行内块元素 */
+}
+.image-container img{
+  width: 60px;
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
+
+.caption3 {
+  position: absolute; /* 绝对定位 */
+  height: 80px;
+  width: 500px;
+  bottom: 0px; /* 调整文字与图片的距离 */
+  left:410%; /* 水平居中 */
+  transform: translateX(-65%); /* 水平居中 */
+  /* background-color: rgba(0, 0, 0, 0.7); 透明度为0.7的黑色背景 */
+  padding: 10px; /* 文字周围的padding值 */
+  color: rgb(0, 0, 0); /* 白色文本颜色 */
+  font-size: 10px;
+  
+}
+.page1{
+  font-size: 30px; 
+  font-weight: bolder;
+}
+.page2{
+  font-size: 10px; 
+  font-family: 宋体;
+}
+.caption3 a{
+  font-size: 9px;
+}
+.foot{
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0,0,0,0.3);
+  font-size: 9px;
+  font-family: 宋体;
+  font-weight: lighter;
+}
+.content #back{
+  background-color: #f4f4f4;
+}
+.content{
+  margin-top: 0%;
+  padding-top: 0%;
+}
